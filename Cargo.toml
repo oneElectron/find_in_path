@@ -1,0 +1,13 @@
+[package]
+name = "find-in-path"
+version = "1.0.0"
+edition = "2021"
+
+[features]
+default = []
+exclude_relative_paths = []
+add_exe_ext = []
+
+[[bin]]
+name = "which-rs"
+path = "bin/which.rs"
